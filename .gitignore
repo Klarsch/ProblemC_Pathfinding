@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+.hg_archival.txt
+.hgignore
+.vs/
+ProblemC_Pathfinding/Debug/
+ProblemC_Pathfinding/Release/ProblemC.23389053.tlog/CL.write.1.tlog
+ProblemC_Pathfinding/Release/
+Release/
