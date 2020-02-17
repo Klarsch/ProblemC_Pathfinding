@@ -173,6 +173,7 @@ void Map::Load( FILE *f )
 
 	char format[32];
 	// ADD ERROR HANDLING HERE
+#pragma warning(disable:4996)
 	int num = fscanf( f, "type %s\nheight %u\nwidth %u\nmap\n", format, &height, &width );
 	if ( num == 3 )
 	{
